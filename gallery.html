@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zdjęcia</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/lightbox2/css/lightbox.min.css">
+    <style>
+        /* Styl miniatur */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Galeria zdjęć</h1>
+    </header>
+    <section id="gallery">
+        <div class="container">
+            <h2>Zdjęcia</h2>
+            <div class="gallery-grid">
+                <a href="images/pic02.png" data-lightbox="gallery" class="gallery-item"><img src="images/pic02.png" alt="Image 1"></a>
+                <a href="images/pic03.jpg" data-lightbox="gallery" class="gallery-item"><img src="images/pic03.jpg" alt="Image 2"></a>
+                <a href="images/pic04.png" data-lightbox="gallery" class="gallery-item"><img src="images/pic04.png" alt="Image 3"></a>
+                <a href="images/pic08.jpg" data-lightbox="gallery" class="gallery-item"><img src="images/pic08.jpg" alt="Image 4"></a>
+                <a href="images/avatar.jpg" data-lightbox="gallery" class="gallery-item"><img src="images/avatar.jpg" alt="Image 1"></a>
+                <a href="images/Jazdy na ośekmę.jpg" data-lightbox="gallery" class="gallery-item"><img src="images/Jazdy na ośekmę.jpg" alt="Image 2"></a>
+                <a href="images/Kat. A.jpg" data-lightbox="gallery" class="gallery-item"><img src="images/Kat. A.jpg" alt="Image 3"></a>
+                <a href="images/Kat. motocyklowa 1.jpg" data-lightbox="gallery" class="gallery-item"><img src="images/Kat. motocyklowa 1.jpg" alt="Image 4"></a>
+                <a href="images/Pojazdy do nauki.jpg" data-lightbox="gallery" class="gallery-item"><img src="images/Pojazdy do nauki.jpg" alt="Image 3"></a>
+                <a href="images/png_zdj.png" data-lightbox="gallery" class="gallery-item"><img src="images/png_zdj.png" alt="Image 4"></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 JB Ośrodek Kształcenia Kierowców. All rights reserved.</p>
+    </footer>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/lightbox2/js/lightbox.min.js"></script>
+</body>
+</html>
